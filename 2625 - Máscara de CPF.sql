@@ -1,0 +1,4 @@
+SELECT 
+    SUBSTR(CPF, 1,3) || '.' || SUBSTR(CPF, 4,3) || '.' || SUBSTR(CPF, 7,3) || '-' || SUBSTRING(CPF, 10,2) AS CPF
+FROM
+    NATURAL_PERSON
