@@ -1,0 +1,6 @@
+SELECT
+    NAME
+FROM
+    CUSTOMERS
+WHERE
+    STATE = 'RS'
